@@ -3,8 +3,12 @@
 
 def verificar_aprobado(nota):
     if(nota>=11):
-        resultado = "Aprobado";
+        resultado = "Aprobado"
     else:
-        resultado = "Desaprobado";
+        resultado = "Desaprobado"
     return resultado
 
+
+
+nota = int(input("Ingrese nota : "))
+print(verificar_aprobado(nota))
